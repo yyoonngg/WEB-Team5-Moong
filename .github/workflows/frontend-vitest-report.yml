@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - "frontend/**"
-      - ".github/workflows/test-report.yml"
+      - ".github/workflows/frontend-vitest-report.yml"
     types: [opened, synchronize]
 
 permissions:
